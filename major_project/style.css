@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 5px;
+    font-family: 'Signika Negative', sans-serif;
+    background-image: url(nature-3082832__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.m{
+    border-radius: 50px;
+    margin: 15px;
+    max-width: 50vh;
+    max-height: 50vh;
+    height: 40vh;
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 50px;
+    justify-content: space-between;
+    color: aliceblue;
+    background: rgba(254, 149, 149, 0.16);    
+    box-shadow: 0 8px 32px 0 rgba(14, 15, 18, 0.59);    
+    backdrop-filter: blur(2.45px);       
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+button {
+    border-radius: 50%;
+    height: 2.5em;
+    width: 2.5em;
+    border: none;
+}
+input.search-bar {
+    height: 1.8em;
+    border-radius: 2px;
+    border: none;
+    padding: 1px;
+    background-color: rgba(0, 0, 0, 0.373);
+    font-family: inherit;
+}
+input{
+    color: aliceblue;
+}
